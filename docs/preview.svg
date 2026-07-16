@@ -1,0 +1,51 @@
+<svg width="560" height="260" viewBox="0 0 560 260" xmlns="http://www.w3.org/2000/svg" font-family="'DM Sans', Verdana, sans-serif">
+  <style>
+    @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+    .vinyl-group { transform-origin: 130px 130px; animation: spin 4s linear infinite; }
+    .vinyl-paused { animation-play-state: paused; }
+    @keyframes eq { 0% { transform: scaleY(0.25); } 100% { transform: scaleY(1); } }
+    .bar { animation: eq 0.9s ease-in-out infinite alternate; }
+    .bar-paused { animation: none; transform: scaleY(0.25); }
+  </style>
+  <defs>
+    <clipPath id="art-clip">
+      <circle cx="102" cy="102" r="83.64" />
+    </clipPath>
+    <linearGradient id="armGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d8d8d8" />
+      <stop offset="100%" stop-color="#9a9a9a" />
+    </linearGradient>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="559" height="259" rx="16" fill="#121212" stroke="transparent" />
+
+  <g class="vinyl-group " transform="translate(28, 28)">
+    <circle cx="102" cy="102" r="102" fill="#111" />
+    <circle cx="102" cy="102" r="96" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="4" />
+    <circle cx="102" cy="102" r="86" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="3" />
+    <circle cx="102" cy="102" r="76" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="3" />
+    
+    <circle cx="102" cy="102" r="27.540000000000003" fill="#f3ead7" stroke="rgba(0,0,0,0.3)" />
+  </g>
+  <circle cx="130" cy="130" r="5" fill="#121212" stroke="rgba(255,255,255,0.25)" stroke-width="2" />
+
+  <g>
+    <circle cx="266" cy="42" r="10" fill="#2a2a2a" />
+    <rect x="272" y="48" width="4" height="110" rx="2" fill="url(#armGradient)"
+      transform="rotate(24 274 50)" />
+  </g>
+
+  <g transform="translate(290, 50) scale(0.75)">
+    <circle cx="12" cy="12" r="12" fill="#1DB954" />
+    <path d="M17.9 10.9C14.7 9 9.35 8.8 6.3 9.75c-.5.15-1-.15-1.15-.6-.15-.5.15-1 .6-1.15 3.55-1.05 9.4-.85 13.1 1.35.45.25.6.85.35 1.3-.25.35-.85.5-1.3.25zm-.1 2.8c-.25.35-.7.5-1.05.25-2.7-1.65-6.8-2.15-9.95-1.15-.4.1-.85-.1-.95-.5-.1-.4.1-.85.5-.95 3.65-1.1 8.15-.55 11.25 1.35.3.15.45.65.2 1zm-1.2 2.75c-.2.3-.55.4-.85.2-2.35-1.45-5.3-1.75-8.8-.95-.35.1-.65-.15-.75-.45-.1-.35.15-.65.45-.75 3.8-.85 7.1-.5 9.7 1.1.35.15.4.55.25.85z" fill="#121212" />
+  </g>
+  <text x="316" y="64" font-size="14" font-weight="700" letter-spacing="0.02em" fill="#1DB954">Now playing on</text>
+
+  <text x="290" y="96" font-size="22" font-weight="700" fill="#ffffff">DO IT AGAIN (feat.…</text>
+  <text x="290" y="120" font-size="15" font-weight="500" fill="rgba(255,255,255,0.6)">NLE Choppa</text>
+
+  <rect class="bar" x="290" y="140" width="3" height="14" rx="1.5" fill="#1DB954" style="animation-delay:0.00s; transform-origin: 291.5px 154px;" />
+    <rect class="bar" x="298" y="140" width="3" height="14" rx="1.5" fill="#1DB954" style="animation-delay:0.18s; transform-origin: 299.5px 154px;" />
+    <rect class="bar" x="306" y="140" width="3" height="14" rx="1.5" fill="#1DB954" style="animation-delay:0.36s; transform-origin: 307.5px 154px;" />
+    <rect class="bar" x="314" y="140" width="3" height="14" rx="1.5" fill="#1DB954" style="animation-delay:0.54s; transform-origin: 315.5px 154px;" />
+</svg>

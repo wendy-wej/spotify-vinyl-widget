@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__claude-design__list_projects",
+      "mcp__claude-design__list_files"
+    ]
+  }
+}
