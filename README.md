@@ -54,8 +54,8 @@ account, then prints a `SPOTIFY_REFRESH_TOKEN` to paste into `.env`.
 ## 3. Run it locally (optional)
 
 ```bash
-npm run dev
-# then open http://localhost:3000/api/spotify
+npx vercel dev
+# then open http://localhost:3000
 ```
 
 ## 4. Deploy
@@ -74,14 +74,16 @@ Then set the three env vars from your `.env` in the Vercel project settings
 ## 5. Embed it in your GitHub profile README
 
 ```markdown
-![Spotify](https://<your-project>.vercel.app/api/spotify)
+![Spotify](https://<your-project>.vercel.app/)
 ```
 
 Add `?theme=light` for the light card:
 
 ```markdown
-![Spotify](https://<your-project>.vercel.app/api/spotify?theme=light)
+![Spotify](https://<your-project>.vercel.app/?theme=light)
 ```
+
+(`/api/spotify` still works directly too, with or without `?theme=light` — the root just rewrites to it.)
 
 ## Notes
 

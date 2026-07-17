@@ -5,10 +5,9 @@
   "description": "A spinning-vinyl \"Now Playing on Spotify\" widget for your GitHub profile README, rendered as a live SVG.",
   "type": "module",
   "scripts": {
-    "get-refresh-token": "node scripts/get-refresh-token.js",
-    "dev": "vercel dev"
+    "get-refresh-token": "node scripts/get-refresh-token.js"
   },
   "devDependencies": {
-    "vercel": "^37.0.0"
+    "vercel": "^56.3.1"
   }
 }

@@ -3,8 +3,7 @@ node_modules
 .env
 .env.local
 
-# local Claude Code permissions/config, not shared across machines
+# local permissions/config, not shared across machines
 .claude/settings.local.json
 
-# reference-only material (Claude Design chat exports), not part of the shipped app
-/help guide/
+.env*
