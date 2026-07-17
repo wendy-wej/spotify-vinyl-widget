@@ -1,10 +1,11 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwendy-wej%2Fspotify-vinyl-widget&env=SPOTIFY_CLIENT_ID,SPOTIFY_CLIENT_SECRET,SPOTIFY_REFRESH_TOKEN&envDescription=Spotify%20API%20credentials%20%E2%80%94%20see%20the%20README%27s%20%22Create%20a%20Spotify%20app%22%20and%20%22Get%20a%20refresh%20token%22%20steps&envLink=https%3A%2F%2Fgithub.com%2Fwendy-wej%2Fspotify-vinyl-widget%23readme&project-name=spotify-vinyl-widget&repository-name=spotify-vinyl-widget)
+
 # Spotify Vinyl Widget
 
 A spinning-vinyl "Now Playing on Spotify" widget for your GitHub profile README, rebuilt here
 as a serverless endpoint that renders a live, self-updating SVG.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwendy-wej%2Fspotify-vinyl-widget&env=SPOTIFY_CLIENT_ID,SPOTIFY_CLIENT_SECRET,SPOTIFY_REFRESH_TOKEN&envDescription=Spotify%20API%20credentials%20%E2%80%94%20see%20the%20README%27s%20%22Create%20a%20Spotify%20app%22%20and%20%22Get%20a%20refresh%20token%22%20steps&envLink=https%3A%2F%2Fgithub.com%2Fwendy-wej%2Fspotify-vinyl-widget%23readme&project-name=spotify-vinyl-widget&repository-name=spotify-vinyl-widget)
 
 ![preview](./docs/preview.svg)
 
@@ -89,7 +90,4 @@ Add `?theme=light` for the light card:
   when it is.
 - Spotify refresh tokens don't expire under normal use, so you shouldn't need
   to redo step 2 — if the widget ever starts showing an error, regenerate one.
-- `lib/svg.js` is the visual layer, ported from the original
-  `Vinyl Spotify Widget.dc.html` Claude Design prototype (same layout, colors,
-  and vinyl/tonearm/EQ animation, adapted to plain SVG since the design's
-  `{{ }}`-templated component runtime only runs inside claude.ai/design).
+
