@@ -1,7 +1,6 @@
 # Spotify Vinyl Widget
 
-A spinning-vinyl "Now Playing on Spotify" widget for your GitHub profile README —
-originally prototyped in [Claude Design](https://claude.ai/design), rebuilt here
+A spinning-vinyl "Now Playing on Spotify" widget for your GitHub profile README, rebuilt here
 as a serverless endpoint that renders a live, self-updating SVG.
 
 ![preview](./docs/preview.svg)
