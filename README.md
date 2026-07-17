@@ -3,7 +3,19 @@
 A spinning-vinyl "Now Playing on Spotify" widget for your GitHub profile README, rebuilt here
 as a serverless endpoint that renders a live, self-updating SVG.
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwendy-wej%2Fspotify-vinyl-widget&env=SPOTIFY_CLIENT_ID,SPOTIFY_CLIENT_SECRET,SPOTIFY_REFRESH_TOKEN&envDescription=Spotify%20API%20credentials%20%E2%80%94%20see%20the%20README%27s%20%22Create%20a%20Spotify%20app%22%20and%20%22Get%20a%20refresh%20token%22%20steps&envLink=https%3A%2F%2Fgithub.com%2Fwendy-wej%2Fspotify-vinyl-widget%23readme&project-name=spotify-vinyl-widget&repository-name=spotify-vinyl-widget)
+
 ![preview](./docs/preview.svg)
+
+This is free and open source (MIT licensed) — anyone can deploy their own copy.
+There's no shared server and no sign-up: each person runs their own instance
+under their own free Vercel account, connected to their own Spotify account.
+
+Do steps 1–2 below first (create a Spotify app, get your refresh token) —
+you'll need those three values to paste in when the Deploy button asks for
+them. Then click "Deploy with Vercel" above to skip steps 3–4, or keep
+following the manual steps all the way through.
 
 ## How it works
 
@@ -47,7 +59,9 @@ npm run dev
 
 ## 4. Deploy
 
-Deploy to [Vercel](https://vercel.com) (free tier is enough):
+Already used the "Deploy with Vercel" button above? You're done — skip to step 5.
+
+Otherwise, deploy to [Vercel](https://vercel.com) manually (free tier is enough):
 
 ```bash
 npx vercel
